@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get the value of an application property.</description>
+        <internal_name>get_property</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>baa0451bdb103300fcb928df4b9619ba</latest_snapshot>
+        <master_snapshot>b2a0451bdb103300fcb928df4b9619f2</master_snapshot>
+        <name>Get Property</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 07:41:55</sys_created_on>
+        <sys_id>453b74d3db103300fcb928df4b9619af</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get Property</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_319371_needit_sp">a5fa38d3db103300fcb928df4b961917</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">a5fa38d3db103300fcb928df4b961917</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_453b74d3db103300fcb928df4b9619af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 08:05:49</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=453b74d3db103300fcb928df4b9619af"/>
+    <sys_variable_value action="delete_multiple" query="document_key=453b74d3db103300fcb928df4b9619af"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>453b74d3db103300fcb928df4b9619af</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 07:59:38</sys_created_on>
+        <sys_id>a04fb4d7db103300fcb928df4b961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 07:59:38</sys_updated_on>
+        <value>property_value</value>
+        <variable display_value="">ac4fb4d7db103300fcb928df4b96192e</variable>
+    </sys_variable_value>
+</record_update>

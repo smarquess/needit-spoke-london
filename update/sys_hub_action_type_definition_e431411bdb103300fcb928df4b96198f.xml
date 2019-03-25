@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Input a number and return the date that many days ago.</description>
+        <internal_name>get_days_ago_date</internal_name>
+        <label_cache>[{"name":"{{action.days_ago}}","label":"action➛Days ago","type":"action","ref":""},{"name":"{{step[a979fb91-2170-4ea4-802a-54c4fe9b7a7b].new_date}}","label":"step➛Calculate daysAgo Date➛new_date","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>2443419bdb103300fcb928df4b9619ba</latest_snapshot>
+        <master_snapshot>3c43419bdb103300fcb928df4b9619ef</master_snapshot>
+        <name>Get Days Ago Date</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 08:08:06</sys_created_on>
+        <sys_id>e431411bdb103300fcb928df4b96198f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Get Days Ago Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_319371_needit_sp">a5fa38d3db103300fcb928df4b961917</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">a5fa38d3db103300fcb928df4b961917</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_e431411bdb103300fcb928df4b96198f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 08:17:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=e431411bdb103300fcb928df4b96198f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e431411bdb103300fcb928df4b96198f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>e431411bdb103300fcb928df4b96198f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 08:14:17</sys_created_on>
+        <sys_id>0b92c95bdb103300fcb928df4b96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 08:14:17</sys_updated_on>
+        <value/>
+        <variable display_value="">cb92c95bdb103300fcb928df4b961956</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e431411bdb103300fcb928df4b96198f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>calculated_date</field>
+        <id>e431411bdb103300fcb928df4b96198f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 08:14:17</sys_created_on>
+        <sys_id>8792c95bdb103300fcb928df4b96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 08:14:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e431411bdb103300fcb928df4b96198f</table>
+        <value>{{step[a979fb91-2170-4ea4-802a-54c4fe9b7a7b].new_date}}</value>
+    </sys_element_mapping>
+</record_update>
